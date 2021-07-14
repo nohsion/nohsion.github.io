@@ -58,12 +58,26 @@ a {
     font-size: 24px;
 }
 
+
+.home__container {
+    text-align: center;
+    padding: 20px 10px;
+    
+}
+
+.home__selfie {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 770px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
         padding: 36px 12px;
-        background-color:blanchedalmond;
+        background-color:#f6f5ef;
     }
 
     .navbar__menu {
