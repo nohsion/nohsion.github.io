@@ -13,12 +13,17 @@ section {
     text-align: center;
 }
 
+main {
+    padding-top: 100px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: cornsilk;
     padding: 3px 12px;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar__logo {
